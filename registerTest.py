@@ -1,8 +1,8 @@
 #encoding=utf-8
 import requests,json,sys
 # print(sys.argv)
-#address=r'http://172.20.10.4:8080/front/register'
-address = "http://"+sys.argv[1]+':8080/interface_proj/front/register'
+address=r'http://127.0.0.1:8080/interface_proj/front/register'
+# address = "http://"+sys.argv[1]+':8080/interface_proj/front/register'
 # '''用户注册'''
 # def register():
 #     global pwd
